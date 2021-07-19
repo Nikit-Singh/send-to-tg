@@ -1,0 +1,15 @@
+{
+  "name": "Send-To-Telegram",
+  "version": "0.0.1",
+  "description": "Send-To-Telegram Client",
+  "permissions": ["contextMenus","activeTab","declarativeContent","storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "manifest_version": 2
+}
